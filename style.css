@@ -1,0 +1,38 @@
+.box{
+    margin-left: 35vw;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 450px;
+    width: 320px;
+    background-color: rgb(72, 72, 74);
+    box-shadow: ;
+}
+.screen{
+    font-size: 35px;
+    color: rgb(71, 68, 75);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(99, 164, 138);
+    height: 70px;
+    width: 280px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 5px;
+    box-shadow: inset 2px 2px 5px black;
+    pointer-events: none;
+    text-align: right;
+}
+input[type="button"]{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50vw;
+    background-color: whitesmoke;
+    margin-left: 22px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px black, -1px -1px 5px white;
+    cursor: pointer;
+}
